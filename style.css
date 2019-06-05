@@ -1,23 +1,49 @@
-.jumbotron {
-	background-color: #428bca
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+    background: #777;
+    width: 960px;
+	font-size: 18px;
+	text-align: center;
 }
 
-.jumbotron h1 {
-	color:white;
+header  {
+	background: #ebebeb;
 }
 
-p, h1, h4 {
-	font-family: 'Roboto Slab', serif;
+nav  {
+	background: #ebebeb;
 }
 
-#funText {
-	color: black;
-	font-size: 24px;
-	font-family: 'Roboto Slab', serif;
+footer  {
+	background: #ebebeb;
+	clear : both;
 }
 
-#box {
-	height: 100px;
-	width: 100px;
-	margin:auto;
+aside  {
+    float: left;
+	background: #ebebeb;
+	width: 460px;
+}
+
+section  {
+	float: left;
+	background: #ebebeb;
+	width: 495px;
+}
+
+article {
+	color: #ebebeb;
+    background: #777;
+}
+
+h1 {
+	color: #777;
+	background: #ebebeb;
+}
+
+p {
+	color: #777;
+	background: #ebebeb;
+
 }
